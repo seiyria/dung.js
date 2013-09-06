@@ -3,3 +3,6 @@ class Datum
 
 	constructor: ({tag}) ->
 		@tag ?= tag
+
+root = exports ? window  
+root.Datum = Datum  

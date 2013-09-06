@@ -1,9 +1,13 @@
 chai = require 'chai'  
-chai.should()  
+chai.should()
 
 Datum = require '../src/core/datum'
+Datum = Datum.Datum
 
 describe 'Datum', ->
+	it 'should exist', ->
+		datum = new Datum
+		datum.should.be.instanceOf Datum
 	it 'should have no tag by default', ->
 		datum = new Datum
 		datum.tag.should.equal ""
