@@ -8,6 +8,17 @@ a shitty little game development framework
 
 Better CoffeeScript
 
+## Sublime Setup
+
+For the settings of Better CoffeeScript (CoffeeScript.sublime-settings), include this snippet:
+```
+{
+	"compileDir": "ignored"
+}
+```
+
+This will compile the test files to a directory that's ignored by git. You can always supply a directory like "C:\Users\UserName\Documents\JS\Ignored" too. 
+
 ## Installation
 
 Install with npm:
