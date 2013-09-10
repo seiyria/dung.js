@@ -2,7 +2,7 @@ chai = require 'chai'
 expect = chai.expect 
 chai.should()
 
-Datum = require('../src/core/datum').Datum
+Datum = require('../../../dist/bin/dung').Datum
 
 describe 'Datum', ->
 	it 'should exist', ->
