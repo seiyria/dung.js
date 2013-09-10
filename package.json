@@ -1,13 +1,20 @@
 {
   "name": "dung.js",
-  "description": "",
-  "version": "0.0.0",
+  "description": "a shitty little game engine",
+  "version": "0.0.1",
   "main": "dung.js",
   "devDependencies": {
     "chai": "*",
-    "mocha": "*"
-  },
-  "scripts": {
-    "test": "mocha --no-colors --reporter spec"
+    "mocha": "*",
+    "yo": "*",
+    "coffee": "*",
+    "coffee-script": "*",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-mocha-test": "*"
   }
 }
