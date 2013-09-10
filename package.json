@@ -1,20 +1,30 @@
 {
-  "name": "dung.js",
-  "description": "a shitty little game engine",
-  "version": "0.0.1",
-  "main": "dung.js",
-  "devDependencies": {
-    "chai": "*",
-    "mocha": "*",
-    "yo": "*",
-    "coffee": "*",
-    "coffee-script": "*",
-    "grunt": "*",
-    "grunt-cli": "*",
-    "grunt-contrib-watch": "*",
-    "grunt-contrib-coffee": "*",
-    "grunt-contrib-jshint": "*",
-    "grunt-contrib-uglify": "*",
-    "grunt-mocha-test": "*"
-  }
+    "title": "dung.js",
+    "name": "dung.js",
+    "description": "a shitty little game engine",
+    "version": "0.0.1",
+    "homepage": "https://github.com/seiyria/dung.js",
+    "bugs": "https://github.com/seiyria/dung.js/issues",
+    "author": {
+        "name": "Kyle Kemp",
+        "email": "kyle@seiyria.com"
+    },
+    "scripts": {
+        "install": "bower install",
+        "test": "./node_modules/.bin/grunt test"
+    },
+    "dependencies": {
+        "chai": "*",
+        "mocha": "*",
+        "yo": "*",
+        "coffee": "*",
+        "coffee-script": "*",
+        "grunt": "*",
+        "grunt-cli": "*",
+        "grunt-contrib-watch": "*",
+        "grunt-contrib-coffee": "*",
+        "grunt-contrib-jshint": "*",
+        "grunt-contrib-uglify": "*",
+        "grunt-mocha-test": "*"
+    }
 }
